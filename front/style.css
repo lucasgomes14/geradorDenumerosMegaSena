@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+
+	background: rgb(13, 4, 97);
+	background: linear-gradient(90deg, rgba(13, 4, 97, 0.726) 0%, rgba(1, 56, 92, 0.822) 46%, rgba(2,105,106,1) 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 150px;
+}
+
+.container{
+	width: 400px;
+	height: 300px;
+	background-color: rgb(224, 224, 224);
+	border-radius: 20px;
+}
+
+#text{
+	color: #181818;
+	font-family: 'Kanit', sans-serif;
+	text-align: center;
+	padding: 10px;
+}
+
+h1{	
+	font-size: 30px;
+	text-shadow: 1px 1px 1px #18181886;
+}
+
+p{
+	font-size: 15px;
+	text-shadow: 1px 1px 1px #18181886;
+}
+
+#inputs{
+	padding: 20px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input{
+	text-align: center;
+	color: #646262;
+	border-radius: 5px;
+	border-width: 1px;
+	height: 30px;
+	width: 300px;
+}
+
+#buttons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button{
+	background-color: #181818;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	border-width: 1px;
+	height: 30px;
+	width: 300px;
+}
+
+button:hover{
+	transition: all 0.5s;
+	transform: scale(1.01);
+	color: white;
+	background: rgb(13,4,97);
+	background: linear-gradient(90deg,rgba(2,105,106,1) 0%, rgba(1,56,92,0.822) 46%, rgba(13,4,97,0.726) 100%);
+}
+
+#numerosGerados{
+	padding: 20px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#button{
+	margin: 5px 0;
+	height: 30px;
+	width: 300px;
+	margin-left: 50px;
+}
+
+#numerosGerados{
+	padding: 50px 0px;
+	margin: 0 50px ;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #181818;
+}
